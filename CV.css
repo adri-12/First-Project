@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+text {
+  color: black;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.065em;
+  color: #F0F0F0;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.065em;
+  color: #F0F0F0;
+}
+
+h3 {
+  font-style: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.065em;
+  color: #F0F0F0;
+}
+
+h4 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  size: 12px;
+  line-height: 15px;
+  color: #F0F0F0;
+}
+
+.left-side header {
+  padding: 24px 12px;
+  color: #F0F0F0;
+  margin-bottom: 4px;
+  background-color: #323232;
+}
+
+.left-side header h1 {
+  text-align: center;
+  display: block;
+}
+
+.left-side header span {
+  text-align: center;
+  display: block;
+}
+
+.left-side header img {
+  transform: translateY(2px);
+  width: 15px;
+  height: 15px;
+}
+
+.left-side header a {
+  margin: 12px auto;
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.down-header {
+  padding-bottom: 36px;
+  padding-top: 36px;
+  text-align: center;
+  color: #F0F0F0;
+  background-color: #323232;
+}
+
+.down-header h2 {
+  border-bottom: solid 2px white;
+  margin: 0px 39px 14px 39px;
+  padding-bottom: 14px;
+}
+
+.left-side div h3 span {
+  padding: 12px 70px;
+  margin: 4px 16px;
+  box-sizing: border-box;
+  border: solid 2px white;
+  display: block;
+}
+
+.down-header h3:nth-of-type(1) span {
+  background: linear-gradient(to right, white 70%, black 0%);
+}
+
+.down-header div h3:nth-of-type(2) span {
+  background: linear-gradient(to right, white 30%, black 0%);
+}
+
+.down-header div h3:nth-of-type(3) span {
+  background: linear-gradient(to right, white 60%, black 0%);
+}
+
+.down-header div h3:nth-of-type(4) span {
+  background: linear-gradient(to right, white 40%, black 0%);
+}
+
+.down-header div h3:nth-of-type(5) span {
+  background: linear-gradient(to right, white 60%, black 0%);
+}
+
+
+.right-side h2 {
+  color: black;
+  border-bottom: solid 2px black;
+  margin: 24px 0px 24px 22px;
+  padding-bottom: 14px;
+}
+
+.right-side h4 {
+  color: black;
+  margin: 0px 0px 12px 22px;
+}
+
+.right-side p:nth-of-type(1) {
+  margin: 0 0 24px 22px;
+}
+
+.right-side p:nth-of-type(2) {
+  margin: 0 39px 12px 22px;
+}
+
+.right-side p:nth-of-type(3) {
+  margin: 12px 0 24px 40px;
+}
+
+.right-side p:nth-of-type(4) {
+  margin: 0 0 24px 22px;
+}
+
+.right-side p:nth-of-type(5) {
+  margin: 0 0 12px 22px;
+}
+
+.right-side p:nth-of-type(6) {
+  margin: 0 0 0 40px;
+}
+
+.right-side a {
+  margin: 0 0 6px 22px;
+}
+
+.right-side span {
+  color: black;
+  margin: 0px 0px 12px 6px;
+}
+
+.right-side span img:nth-of-type(1),
+span img:nth-of-type(3) {
+  width: 15px;
+  height: 15px;
+  margin-left: 22px;
+}
+
+.right-side span img:nth-of-type(2) {
+  width: 15px;
+  height: 15px;
+  margin-left: 31px;
+}
+
+.hex {
+  /* margin-top: 50px; */
+  margin-bottom: 100px;
+  width: 208px;
+  height: 120px;
+  background-color: white;
+  position: relative;
+}
+
+.hex:before,
+.hex:after {
+  content: "";
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+  position: absolute;
+}
+
+.hex:before {
+  top: -59px;
+  border-bottom: 60px solid white;
+}
+
+.hex:after {
+  bottom: -59px;
+  border-top: 60px solid white;
+}
+
+.hex img {
+  display: flex;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
